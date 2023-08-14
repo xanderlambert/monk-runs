@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <meta name="viewport" content="width=device-width" />
+    %sveltekit.head%
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <style>
+      body {
+        margin: 0; 
+        padding: 0;
+        background-image: url('https://oldstpatricks.org/wp-content/uploads/2018/01/old-st-patricks-in-new-orleans2.jpg');
+        /* background-image: url('https://jooinn.com/images/stained-glass-window-3.jpg'); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+      }
+    </style>
+    <div style="display: contents">%sveltekit.body%</div>
+  </body>
 </html>
