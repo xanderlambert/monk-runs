@@ -1,8 +1,8 @@
 
 
-<nav>
-	<a href="/">home</a>
-	<a href="/">somewhere else</a>
+<nav class='nav'>
+	<a href="/" class='link'>home</a>
+	<a href="/" class='link'>somewhere else</a>
 </nav>
 
 <div class='revelations'>
@@ -15,5 +15,20 @@
   .revelations {
     text-align: center;
     display: block;
+    color: #87a8b1;
+  }
+
+  .nav {
+    margin: 2em; 
+    color: #87a8b1;
+  }
+
+  .link {
+    text-decoration: none; 
+    color: inherit;
+  }
+
+  .card {
+ 
   }
 </style>
